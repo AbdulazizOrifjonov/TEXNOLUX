@@ -1,0 +1,14 @@
+{
+  "name": "project-sport",
+  "version": "1.0.0",
+  "description": "SPORT OUTLET (Sport & Fitness Store Platform)",
+  "main": "tools/telegram_product_bot.js",
+  "scripts": {
+    "start": "node tools/telegram_product_bot.js",
+    "bot": "node tools/telegram_product_bot.js",
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "keywords": ["sport", "fitness", "store", "ecommerce"],
+  "author": "Abdulazizbek",
+  "license": "ISC"
+}

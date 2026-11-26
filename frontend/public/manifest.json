@@ -1,0 +1,16 @@
+{
+  "short_name": "TEXNOLUX",
+  "name": "TEXNOLUX — Ishonchli va Barakali",
+  "icons": [
+    {
+      "src": "/texnolux-logo.jpg?v=2",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "display": "standalone",
+  "orientation": "portrait"
+}
