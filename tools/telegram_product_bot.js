@@ -288,7 +288,20 @@ const healthServer = http.createServer(async (req, res) => {
 
   try {
     if (urlPath === '/bot-api/health') {
-      return sendJson(res, 200, { ok: true, service: 'texnolux-bot' });
+      const isWebhook = Boolean((process.env.RENDER || process.env.RENDER_EXTERNAL_URL) && BOT_TOKEN && MINI_APP_URL.startsWith('https://'));
+      return sendJson(res, 200, {
+        ok: true,
+        service: 'texnolux-bot',
+        hasBotToken: Boolean(BOT_TOKEN),
+        miniAppUrl: MINI_APP_URL || null,
+        mode: isWebhook ? 'webhook' : (BOT_TOKEN ? 'polling' : 'web_only')
+      });
+    }
+
+    if (urlPath === '/bot-api/telegram-webhook' && req.method === 'POST') {
+      const update = await parseJsonBody(req);
+      handleUpdate(update).catch((err) => console.error('Webhook handleUpdate error:', err.message));
+      return sendJson(res, 200, { ok: true });
     }
 
     if (urlPath === '/bot-api/customer/avatar' && req.method === 'POST') {
@@ -1795,7 +1808,23 @@ if (require.main === module) {
       syncCustomersToJson(loadBotConfig());
     }
 
-    pollUpdates();
+    const isRender = Boolean(process.env.RENDER || process.env.RENDER_EXTERNAL_URL);
+    if (isRender && MINI_APP_URL.startsWith('https://')) {
+      const webhookUrl = `${MINI_APP_URL.replace(/\/+$/, '')}/bot-api/telegram-webhook`;
+      sendTelegram('setWebhook', { url: webhookUrl, drop_pending_updates: false })
+        .then((wh) => {
+          if (wh?.ok) {
+            console.log(`Telegram Webhook active: ${webhookUrl}`);
+          } else {
+            console.warn('Webhook setup failed, falling back to polling:', JSON.stringify(wh));
+            pollUpdates();
+          }
+        })
+        .catch(() => pollUpdates());
+    } else {
+      sendTelegram('deleteWebhook', { drop_pending_updates: false })
+        .finally(() => pollUpdates());
+    }
   }
 }
 
