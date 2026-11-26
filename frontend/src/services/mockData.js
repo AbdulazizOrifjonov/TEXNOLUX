@@ -101,19 +101,19 @@ export const defaultProducts = [
   {
     "_id": "prod_immer-90-tali-gaz-2695",
     "id": "prod_immer-90-tali-gaz-2695",
-    "title": "Immer 90 tali gaz",
+    "title": "Immer 90 tali Gaz Plita",
     "slug": "immer-90-tali-gaz-2695",
     "sku": "TXL-622695",
     "price": 4690250,
-    "oldPrice": 5393788,
-    "old_price": 5393788,
+    "oldPrice": 5391092,
+    "old_price": 5391092,
     "discountPercent": 13,
     "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "category": "Oshxona Texnikasi",
+    "category_slug": "oshxona-texnikasi",
+    "categorySlug": "oshxona-texnikasi",
+    "department": "oshxona",
+    "departmentName": "Oshxona Texnikasi",
     "subcategory": "",
     "brand": "Immer",
     "stock": 25,
@@ -129,15 +129,15 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Immer 90 tali gaz — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Immer 90 tali Gaz Plita — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Oshxona Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Oshxona Texnikasi"
       },
       {
         "label": "Brend",
@@ -152,26 +152,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:37:02.695Z"
+    "created_at": "2026-11-25T06:37:02.695Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_boshqa-texnika-9002",
     "id": "prod_boshqa-texnika-9002",
-    "title": "Boshqa Texnika",
+    "title": "Snappro Bohn V18 Simsiz Changyutgich (40000 Pa)",
     "slug": "boshqa-texnika-9002",
     "sku": "TXL-619002",
     "price": 1285000,
-    "oldPrice": 1477750,
-    "old_price": 1477750,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 1460227,
+    "old_price": 1460227,
+    "discountPercent": 12,
+    "discount_percent": 12,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Snappro",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -185,19 +186,19 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Snappro Bohn V18 Simsiz Changyutgich (40000 Pa) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Snappro"
       },
       {
         "label": "Holati",
@@ -208,24 +209,25 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:59.002Z"
+    "created_at": "2026-11-25T06:36:59.002Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_ziffler-kuler-7869",
     "id": "prod_ziffler-kuler-7869",
-    "title": "Ziffler kuler",
+    "title": "Ziffler Suv Kuleri",
     "slug": "ziffler-kuler-7869",
     "sku": "TXL-617869",
     "price": 963750,
-    "oldPrice": 1108313,
-    "old_price": 1108313,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Muzlatgichlar & Morozilniklar",
-    "category_slug": "muzlatgichlar",
-    "categorySlug": "muzlatgichlar",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Oshxona Texnikasi",
+    "category_slug": "oshxona-texnikasi",
+    "categorySlug": "oshxona-texnikasi",
+    "department": "oshxona",
+    "departmentName": "Oshxona Texnikasi",
     "subcategory": "",
     "brand": "Ziffler",
     "stock": 25,
@@ -236,46 +238,55 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-615252_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Ziffler kuler — mahsulotlarni uzoq vaqt yangi saqlovchi ishonchli va tejamkor sovutish texnikasi.",
+    "description": "Ziffler Suv Kuleri — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
+      {
+        "label": "Yo‘nalish",
+        "value": "Oshxona Texnikasi"
+      },
+      {
+        "label": "Toifa",
+        "value": "Oshxona Texnikasi"
+      },
       {
         "label": "Brend",
         "value": "Ziffler"
       },
       {
-        "label": "Sovutish tizimi",
-        "value": "Standart / Zamonaviy"
+        "label": "Holati",
+        "value": "Yangi / Kafolatli"
       },
       {
-        "label": "Kafolat",
-        "value": "1 yil rasmiy kafolat"
+        "label": "Yetkazib berish",
+        "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:57.869Z"
+    "created_at": "2026-11-25T06:36:57.869Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-7753",
     "id": "prod_boshqa-texnika-7753",
-    "title": "Boshqa Texnika",
+    "title": "Hitachi CV-960F Changyutgich (2200W, 21L)",
     "slug": "boshqa-texnika-7753",
     "sku": "TXL-617753",
     "price": 1991750,
-    "oldPrice": 2290513,
-    "old_price": 2290513,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 2213056,
+    "old_price": 2213056,
+    "discountPercent": 10,
+    "discount_percent": 10,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Hitachi",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -289,19 +300,19 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Hitachi CV-960F Changyutgich (2200W, 21L) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Hitachi"
       },
       {
         "label": "Holati",
@@ -312,7 +323,8 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:57.753Z"
+    "created_at": "2026-11-25T06:36:57.753Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_10kg-avtomat-kir-yuvish-mashinasi-7407",
@@ -321,10 +333,10 @@ export const defaultProducts = [
     "slug": "10kg-avtomat-kir-yuvish-mashinasi-7407",
     "sku": "TXL-617407",
     "price": 5782500,
-    "oldPrice": 6649875,
-    "old_price": 6649875,
-    "discountPercent": 13,
-    "discount_percent": 13,
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
     "category": "Kir Yuvish Mashinalari",
     "category_slug": "kir-yuvish-mashinalari",
     "categorySlug": "kir-yuvish-mashinalari",
@@ -340,50 +352,55 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-615150_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "10kg Avtomat Kir Yuvish Mashinasi — zamonaviy va tejamkor kir yuvish texnikasi. Kiyimlarni ehtiyotkorlik bilan toza yuvadi, suv va elektr energiyasini tejaydi.",
+    "description": "10kg Avtomat Kir Yuvish Mashinasi — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
+      {
+        "label": "Yo‘nalish",
+        "value": "Maishiy Texnika"
+      },
+      {
+        "label": "Toifa",
+        "value": "Kir Yuvish Mashinalari"
+      },
       {
         "label": "Brend",
         "value": "TEXNOLUX"
       },
       {
-        "label": "Yuklama hajmi",
-        "value": "10 kg"
+        "label": "Holati",
+        "value": "Yangi / Kafolatli"
       },
       {
-        "label": "Turi",
-        "value": "To‘liq avtomat"
-      },
-      {
-        "label": "Kafolat",
-        "value": "1 yil rasmiy kafolat"
+        "label": "Yetkazib berish",
+        "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:57.407Z"
+    "created_at": "2026-11-25T06:36:57.407Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-6868",
     "id": "prod_boshqa-texnika-6868",
-    "title": "Boshqa Texnika",
+    "title": "Tefal X-trem Power Changyutgich",
     "slug": "boshqa-texnika-6868",
     "sku": "TXL-616868",
     "price": 3212500,
-    "oldPrice": 3694375,
-    "old_price": 3694375,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 3779412,
+    "old_price": 3779412,
+    "discountPercent": 15,
+    "discount_percent": 15,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Tefal",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -392,24 +409,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-615483_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Tefal X-trem Power Changyutgich — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Tefal"
       },
       {
         "label": "Holati",
@@ -420,26 +437,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:56.868Z"
+    "created_at": "2026-11-25T06:36:56.868Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-6646",
     "id": "prod_boshqa-texnika-6646",
-    "title": "Boshqa Texnika",
+    "title": "Duvel M7 Vertikal Bug‘li Dazmol (2450W)",
     "slug": "boshqa-texnika-6646",
     "sku": "TXL-616646",
     "price": 1991750,
-    "oldPrice": 2290513,
-    "old_price": 2290513,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Duvel",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -448,24 +466,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611985_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Duvel M7 Vertikal Bug‘li Dazmol (2450W) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Duvel"
       },
       {
         "label": "Holati",
@@ -476,26 +494,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:56.646Z"
+    "created_at": "2026-11-25T06:36:56.646Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-6469",
     "id": "prod_boshqa-texnika-6469",
-    "title": "Boshqa Texnika",
+    "title": "Philips 7000 Series Changyutgich (1800W)",
     "slug": "boshqa-texnika-6469",
     "sku": "TXL-616469",
     "price": 2827000,
-    "oldPrice": 3251050,
-    "old_price": 3251050,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 3212500,
+    "old_price": 3212500,
+    "discountPercent": 12,
+    "discount_percent": 12,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Philips",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -509,19 +528,19 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Philips 7000 Series Changyutgich (1800W) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Philips"
       },
       {
         "label": "Holati",
@@ -532,7 +551,8 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:56.469Z"
+    "created_at": "2026-11-25T06:36:56.469Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_lg-8kg-avtomat-kir-yuvish-mashinasi-6289",
@@ -541,10 +561,10 @@ export const defaultProducts = [
     "slug": "lg-8kg-avtomat-kir-yuvish-mashinasi-6289",
     "sku": "TXL-616289",
     "price": 5589750,
-    "oldPrice": 6428212,
-    "old_price": 6428212,
-    "discountPercent": 13,
-    "discount_percent": 13,
+    "oldPrice": 6351989,
+    "old_price": 6351989,
+    "discountPercent": 12,
+    "discount_percent": 12,
     "category": "Kir Yuvish Mashinalari",
     "category_slug": "kir-yuvish-mashinalari",
     "categorySlug": "kir-yuvish-mashinalari",
@@ -565,59 +585,7 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "LG 8kg Avtomat Kir Yuvish Mashinasi — zamonaviy va tejamkor kir yuvish texnikasi. Kiyimlarni ehtiyotkorlik bilan toza yuvadi, suv va elektr energiyasini tejaydi.",
-    "specifications": [
-      {
-        "label": "Brend",
-        "value": "LG"
-      },
-      {
-        "label": "Yuklama hajmi",
-        "value": "8 kg"
-      },
-      {
-        "label": "Turi",
-        "value": "To‘liq avtomat"
-      },
-      {
-        "label": "Kafolat",
-        "value": "1 yil rasmiy kafolat"
-      }
-    ],
-    "created_at": "2026-11-25T06:36:56.289Z"
-  },
-  {
-    "_id": "prod_7tech-marazilka-249-litir-6265",
-    "id": "prod_7tech-marazilka-249-litir-6265",
-    "title": "7TECh marazilka 249 litir",
-    "slug": "7tech-marazilka-249-litir-6265",
-    "sku": "TXL-616265",
-    "price": 3019750,
-    "oldPrice": 3472712,
-    "old_price": 3472712,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
-    "subcategory": "",
-    "brand": "TEXNOLUX",
-    "stock": 25,
-    "inStock": true,
-    "in_stock": true,
-    "rating": 5,
-    "reviews_count": 0,
-    "images": [
-      "/uploads/prod-615788_1.jpg"
-    ],
-    "is_bestseller": true,
-    "is_new_arrival": true,
-    "is_weekly_deal": false,
-    "variantLabel": "",
-    "variants": [],
-    "description": "7TECh marazilka 249 litir — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "LG 8kg Avtomat Kir Yuvish Mashinasi — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
@@ -625,11 +593,11 @@ export const defaultProducts = [
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Kir Yuvish Mashinalari"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "LG"
       },
       {
         "label": "Holati",
@@ -640,24 +608,82 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:56.265Z"
+    "created_at": "2026-11-25T06:36:56.289Z",
+    "isBestseller": true
+  },
+  {
+    "_id": "prod_7tech-marazilka-249-litir-6265",
+    "id": "prod_7tech-marazilka-249-litir-6265",
+    "title": "7TECH Series Gold Morozilnik (249 litr)",
+    "slug": "7tech-marazilka-249-litir-6265",
+    "sku": "TXL-616265",
+    "price": 3019750,
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Muzlatgichlar & Morozilniklar",
+    "category_slug": "muzlatgichlar",
+    "categorySlug": "muzlatgichlar",
+    "department": "maishiy-texnika",
+    "departmentName": "Maishiy Texnika",
+    "subcategory": "",
+    "brand": "7TECH",
+    "stock": 25,
+    "inStock": true,
+    "in_stock": true,
+    "rating": 5,
+    "reviews_count": 0,
+    "images": [
+      "/uploads/prod-615788_1.jpg"
+    ],
+    "is_bestseller": false,
+    "is_new_arrival": true,
+    "is_weekly_deal": false,
+    "variantLabel": "",
+    "variants": [],
+    "description": "7TECH Series Gold Morozilnik (249 litr) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "specifications": [
+      {
+        "label": "Yo‘nalish",
+        "value": "Maishiy Texnika"
+      },
+      {
+        "label": "Toifa",
+        "value": "Muzlatgichlar & Morozilniklar"
+      },
+      {
+        "label": "Brend",
+        "value": "7TECH"
+      },
+      {
+        "label": "Holati",
+        "value": "Yangi / Kafolatli"
+      },
+      {
+        "label": "Yetkazib berish",
+        "value": "O‘zbekiston bo‘ylab tezkor"
+      }
+    ],
+    "created_at": "2026-11-25T06:36:56.265Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-6240",
     "id": "prod_boshqa-texnika-6240",
-    "title": "Boshqa Texnika",
+    "title": "Ciklon Konteynerli Changyutgich",
     "slug": "boshqa-texnika-6240",
     "sku": "TXL-616240",
     "price": 1092250,
-    "oldPrice": 1256088,
-    "old_price": 1256088,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
     "brand": "TEXNOLUX",
     "stock": 25,
@@ -668,20 +694,20 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-615531_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Ciklon Konteynerli Changyutgich — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
@@ -696,7 +722,8 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:56.240Z"
+    "created_at": "2026-11-25T06:36:56.240Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_rulls-kir-yuvish-mashinasi-8-kg-sig-im-6166",
@@ -705,10 +732,10 @@ export const defaultProducts = [
     "slug": "rulls-kir-yuvish-mashinasi-8-kg-sig-im-6166",
     "sku": "TXL-616166",
     "price": 2557150,
-    "oldPrice": 2940723,
-    "old_price": 2940723,
-    "discountPercent": 13,
-    "discount_percent": 13,
+    "oldPrice": 3008412,
+    "old_price": 3008412,
+    "discountPercent": 15,
+    "discount_percent": 15,
     "category": "Kir Yuvish Mashinalari",
     "category_slug": "kir-yuvish-mashinalari",
     "categorySlug": "kir-yuvish-mashinalari",
@@ -729,30 +756,31 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "RULLS kir yuvish mashinasi 🧺 🔹 8 kg sig‘im — zamonaviy va tejamkor kir yuvish texnikasi. Kiyimlarni ehtiyotkorlik bilan toza yuvadi, suv va elektr energiyasini tejaydi.",
+    "description": "RULLS kir yuvish mashinasi 🧺 🔹 8 kg sig‘im — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
+      {
+        "label": "Yo‘nalish",
+        "value": "Maishiy Texnika"
+      },
+      {
+        "label": "Toifa",
+        "value": "Kir Yuvish Mashinalari"
+      },
       {
         "label": "Brend",
         "value": "Rulls"
       },
       {
-        "label": "Yuklama hajmi",
-        "value": "8 kg"
+        "label": "Holati",
+        "value": "Yangi / Kafolatli"
       },
       {
-        "label": "Turi",
-        "value": "To‘liq avtomat"
-      },
-      {
-        "label": "Dvigatel",
-        "value": "Inverter (tejamkor va jim)"
-      },
-      {
-        "label": "Kafolat",
-        "value": "1 yil rasmiy kafolat"
+        "label": "Yetkazib berish",
+        "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:56.166Z"
+    "created_at": "2026-11-25T06:36:56.166Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_immer-8kg-avtomat-kir-yuvish-mashinasi-6148",
@@ -761,10 +789,10 @@ export const defaultProducts = [
     "slug": "immer-8kg-avtomat-kir-yuvish-mashinasi-6148",
     "sku": "TXL-616148",
     "price": 2698500,
-    "oldPrice": 3103275,
-    "old_price": 3103275,
-    "discountPercent": 13,
-    "discount_percent": 13,
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
     "category": "Kir Yuvish Mashinalari",
     "category_slug": "kir-yuvish-mashinalari",
     "categorySlug": "kir-yuvish-mashinalari",
@@ -780,48 +808,53 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-615111_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Immer 8kg Avtomat Kir Yuvish Mashinasi — zamonaviy va tejamkor kir yuvish texnikasi. Kiyimlarni ehtiyotkorlik bilan toza yuvadi, suv va elektr energiyasini tejaydi.",
+    "description": "Immer 8kg Avtomat Kir Yuvish Mashinasi — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
+      {
+        "label": "Yo‘nalish",
+        "value": "Maishiy Texnika"
+      },
+      {
+        "label": "Toifa",
+        "value": "Kir Yuvish Mashinalari"
+      },
       {
         "label": "Brend",
         "value": "Immer"
       },
       {
-        "label": "Yuklama hajmi",
-        "value": "8 kg"
+        "label": "Holati",
+        "value": "Yangi / Kafolatli"
       },
       {
-        "label": "Turi",
-        "value": "To‘liq avtomat"
-      },
-      {
-        "label": "Kafolat",
-        "value": "1 yil rasmiy kafolat"
+        "label": "Yetkazib berish",
+        "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:56.148Z"
+    "created_at": "2026-11-25T06:36:56.148Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_pasuda-moyka-ziffler-6118",
     "id": "prod_pasuda-moyka-ziffler-6118",
-    "title": "Pasuda moyka Ziffler",
+    "title": "Ziffler Idish Yuvish Mashinasi (Posudomoyka)",
     "slug": "pasuda-moyka-ziffler-6118",
     "sku": "TXL-616118",
     "price": 4112000,
-    "oldPrice": 4728800,
-    "old_price": 4728800,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 4568889,
+    "old_price": 4568889,
+    "discountPercent": 10,
+    "discount_percent": 10,
+    "category": "Oshxona Texnikasi",
+    "category_slug": "oshxona-texnikasi",
+    "categorySlug": "oshxona-texnikasi",
+    "department": "oshxona",
+    "departmentName": "Oshxona Texnikasi",
     "subcategory": "",
     "brand": "Ziffler",
     "stock": 25,
@@ -837,15 +870,15 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Pasuda moyka Ziffler — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Ziffler Idish Yuvish Mashinasi (Posudomoyka) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Oshxona Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Oshxona Texnikasi"
       },
       {
         "label": "Brend",
@@ -860,22 +893,23 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:56.118Z"
+    "created_at": "2026-11-25T06:36:56.118Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_immer-185-75-sm-6098",
     "id": "prod_immer-185-75-sm-6098",
-    "title": "Immer 185/75 sm",
+    "title": "Immer 4-Eshikli Total No Frost Muzlatgich (185×75 sm)",
     "slug": "immer-185-75-sm-6098",
     "sku": "TXL-616098",
     "price": 5898150,
-    "oldPrice": 6782872,
-    "old_price": 6782872,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
+    "oldPrice": 6858314,
+    "old_price": 6858314,
+    "discountPercent": 14,
+    "discount_percent": 14,
+    "category": "Muzlatgichlar & Morozilniklar",
+    "category_slug": "muzlatgichlar",
+    "categorySlug": "muzlatgichlar",
     "department": "maishiy-texnika",
     "departmentName": "Maishiy Texnika",
     "subcategory": "",
@@ -893,7 +927,7 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Immer 185/75 sm — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Immer 4-Eshikli Total No Frost Muzlatgich (185×75 sm) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
@@ -901,7 +935,7 @@ export const defaultProducts = [
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Muzlatgichlar & Morozilniklar"
       },
       {
         "label": "Brend",
@@ -916,24 +950,25 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:56.098Z"
+    "created_at": "2026-11-25T06:36:56.098Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_immer-60-tali-gaz-5929",
     "id": "prod_immer-60-tali-gaz-5929",
-    "title": "Immer 60 tali Gaz",
+    "title": "Immer 60 tali Gaz Plita",
     "slug": "immer-60-tali-gaz-5929",
     "sku": "TXL-615929",
     "price": 2698500,
-    "oldPrice": 3103275,
-    "old_price": 3103275,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Oshxona Texnikasi",
+    "category_slug": "oshxona-texnikasi",
+    "categorySlug": "oshxona-texnikasi",
+    "department": "oshxona",
+    "departmentName": "Oshxona Texnikasi",
     "subcategory": "",
     "brand": "Immer",
     "stock": 25,
@@ -944,20 +979,20 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-615270_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Immer 60 tali Gaz — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Immer 60 tali Gaz Plita — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Oshxona Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Oshxona Texnikasi"
       },
       {
         "label": "Brend",
@@ -972,26 +1007,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:55.929Z"
+    "created_at": "2026-11-25T06:36:55.929Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-5766",
     "id": "prod_boshqa-texnika-5766",
-    "title": "Boshqa Texnika",
+    "title": "Beston Mikroto‘lqinli Pech",
     "slug": "boshqa-texnika-5766",
     "sku": "TXL-615766",
     "price": 771000,
-    "oldPrice": 886650,
-    "old_price": 886650,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 856667,
+    "old_price": 856667,
+    "discountPercent": 10,
+    "discount_percent": 10,
+    "category": "Oshxona Texnikasi",
+    "category_slug": "oshxona-texnikasi",
+    "categorySlug": "oshxona-texnikasi",
+    "department": "oshxona",
+    "departmentName": "Oshxona Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Beston",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1000,24 +1036,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-615301_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Beston Mikroto‘lqinli Pech — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Oshxona Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Oshxona Texnikasi"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Beston"
       },
       {
         "label": "Holati",
@@ -1028,7 +1064,8 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:55.766Z"
+    "created_at": "2026-11-25T06:36:55.766Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_hisense-7kg-avtomat-kir-yuvish-mashinasi-5720",
@@ -1037,10 +1074,10 @@ export const defaultProducts = [
     "slug": "hisense-7kg-avtomat-kir-yuvish-mashinasi-5720",
     "sku": "TXL-615720",
     "price": 3276750,
-    "oldPrice": 3768262,
-    "old_price": 3768262,
-    "discountPercent": 13,
-    "discount_percent": 13,
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
     "category": "Kir Yuvish Mashinalari",
     "category_slug": "kir-yuvish-mashinalari",
     "categorySlug": "kir-yuvish-mashinalari",
@@ -1056,50 +1093,55 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-615130_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Hisense 7kg Avtomat Kir Yuvish Mashinasi — zamonaviy va tejamkor kir yuvish texnikasi. Kiyimlarni ehtiyotkorlik bilan toza yuvadi, suv va elektr energiyasini tejaydi.",
+    "description": "Hisense 7kg Avtomat Kir Yuvish Mashinasi — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
+      {
+        "label": "Yo‘nalish",
+        "value": "Maishiy Texnika"
+      },
+      {
+        "label": "Toifa",
+        "value": "Kir Yuvish Mashinalari"
+      },
       {
         "label": "Brend",
         "value": "Hisense"
       },
       {
-        "label": "Yuklama hajmi",
-        "value": "7 kg"
+        "label": "Holati",
+        "value": "Yangi / Kafolatli"
       },
       {
-        "label": "Turi",
-        "value": "To‘liq avtomat"
-      },
-      {
-        "label": "Kafolat",
-        "value": "1 yil rasmiy kafolat"
+        "label": "Yetkazib berish",
+        "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:55.720Z"
+    "created_at": "2026-11-25T06:36:55.720Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-5516",
     "id": "prod_boshqa-texnika-5516",
-    "title": "Boshqa Texnika",
+    "title": "Bosch AquaWash & Clean Serie 4 Changyutgich (2100W)",
     "slug": "boshqa-texnika-5516",
     "sku": "TXL-615516",
     "price": 4497500,
-    "oldPrice": 5172125,
-    "old_price": 5172125,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 5110795,
+    "old_price": 5110795,
+    "discountPercent": 12,
+    "discount_percent": 12,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Bosch",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1113,19 +1155,19 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Bosch AquaWash & Clean Serie 4 Changyutgich (2100W) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Bosch"
       },
       {
         "label": "Holati",
@@ -1136,26 +1178,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:55.516Z"
+    "created_at": "2026-11-25T06:36:55.516Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_boshqa-texnika-5335",
     "id": "prod_boshqa-texnika-5335",
-    "title": "Boshqa Texnika",
+    "title": "Avalon AVL-VCC 4135 Simsiz Changyutgich (400W)",
     "slug": "boshqa-texnika-5335",
     "sku": "TXL-615335",
     "price": 2955500,
-    "oldPrice": 3398825,
-    "old_price": 3398825,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Avalon",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1164,24 +1207,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611883_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Avalon AVL-VCC 4135 Simsiz Changyutgich (400W) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Avalon"
       },
       {
         "label": "Holati",
@@ -1192,26 +1235,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:55.335Z"
+    "created_at": "2026-11-25T06:36:55.335Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-5235",
     "id": "prod_boshqa-texnika-5235",
-    "title": "Boshqa Texnika",
+    "title": "Goodwell Choynakli Sensorli Suv Kuleri",
     "slug": "boshqa-texnika-5235",
     "sku": "TXL-615235",
     "price": 2184500,
-    "oldPrice": 2512175,
-    "old_price": 2512175,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Oshxona Texnikasi",
+    "category_slug": "oshxona-texnikasi",
+    "categorySlug": "oshxona-texnikasi",
+    "department": "oshxona",
+    "departmentName": "Oshxona Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Goodwell",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1220,24 +1264,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611799_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Goodwell Choynakli Sensorli Suv Kuleri — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Oshxona Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Oshxona Texnikasi"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Goodwell"
       },
       {
         "label": "Holati",
@@ -1248,26 +1292,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:55.235Z"
+    "created_at": "2026-11-25T06:36:55.235Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-4913",
     "id": "prod_boshqa-texnika-4913",
-    "title": "Boshqa Texnika",
+    "title": "Tefal XL Bug‘li Dazmol (Bordo)",
     "slug": "boshqa-texnika-4913",
     "sku": "TXL-614913",
     "price": 925200,
-    "oldPrice": 1063980,
-    "old_price": 1063980,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 1088471,
+    "old_price": 1088471,
+    "discountPercent": 15,
+    "discount_percent": 15,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Tefal",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1276,24 +1321,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611967_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Tefal XL Bug‘li Dazmol (Bordo) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Tefal"
       },
       {
         "label": "Holati",
@@ -1304,26 +1349,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:54.913Z"
+    "created_at": "2026-11-25T06:36:54.913Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-4799",
     "id": "prod_boshqa-texnika-4799",
-    "title": "Boshqa Texnika",
+    "title": "Dyson Humidify+Cool PH2 De-NOx Havo Tozalagich",
     "slug": "boshqa-texnika-4799",
     "sku": "TXL-614799",
     "price": 10280000,
-    "oldPrice": 11822000,
-    "old_price": 11822000,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 11422222,
+    "old_price": 11422222,
+    "discountPercent": 10,
+    "discount_percent": 10,
+    "category": "Konditsionerlar & Iqlim",
+    "category_slug": "konditsionerlar",
+    "categorySlug": "konditsionerlar",
+    "department": "iqlim-texnikasi",
+    "departmentName": "Iqlim Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Dyson",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1337,19 +1383,19 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Dyson Humidify+Cool PH2 De-NOx Havo Tozalagich — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Iqlim Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Konditsionerlar & Iqlim"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Dyson"
       },
       {
         "label": "Holati",
@@ -1360,26 +1406,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:54.799Z"
+    "created_at": "2026-11-25T06:36:54.799Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_boshqa-texnika-4479",
     "id": "prod_boshqa-texnika-4479",
-    "title": "Boshqa Texnika",
+    "title": "Bohn Performer Cleaning 2v1 Yuvuvchi Changyutgich (800W)",
     "slug": "boshqa-texnika-4479",
     "sku": "TXL-614479",
     "price": 2248750,
-    "oldPrice": 2586063,
-    "old_price": 2586063,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Bohn",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1388,24 +1435,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-612103_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Bohn Performer Cleaning 2v1 Yuvuvchi Changyutgich (800W) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Bohn"
       },
       {
         "label": "Holati",
@@ -1416,26 +1463,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:54.479Z"
+    "created_at": "2026-11-25T06:36:54.479Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_380-litir-4419",
     "id": "prod_380-litir-4419",
-    "title": "380 litir",
+    "title": "Artel Vitrina Muzlatgich (380 litr)",
     "slug": "380-litir-4419",
     "sku": "TXL-614419",
     "price": 5782500,
-    "oldPrice": 6649875,
-    "old_price": 6649875,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
+    "oldPrice": 6425000,
+    "old_price": 6425000,
+    "discountPercent": 10,
+    "discount_percent": 10,
+    "category": "Muzlatgichlar & Morozilniklar",
+    "category_slug": "muzlatgichlar",
+    "categorySlug": "muzlatgichlar",
     "department": "maishiy-texnika",
     "departmentName": "Maishiy Texnika",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Artel",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1444,12 +1492,12 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611778_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "380 litir — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Artel Vitrina Muzlatgich (380 litr) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
@@ -1457,11 +1505,11 @@ export const defaultProducts = [
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Muzlatgichlar & Morozilniklar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Artel"
       },
       {
         "label": "Holati",
@@ -1472,7 +1520,8 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:54.419Z"
+    "created_at": "2026-11-25T06:36:54.419Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_7kg-avtomat-kir-yuvish-mashinasi-4269",
@@ -1481,10 +1530,10 @@ export const defaultProducts = [
     "slug": "7kg-avtomat-kir-yuvish-mashinasi-4269",
     "sku": "TXL-614269",
     "price": 2827000,
-    "oldPrice": 3251050,
-    "old_price": 3251050,
-    "discountPercent": 13,
-    "discount_percent": 13,
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
     "category": "Kir Yuvish Mashinalari",
     "category_slug": "kir-yuvish-mashinalari",
     "categorySlug": "kir-yuvish-mashinalari",
@@ -1500,50 +1549,55 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611786_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "7kg Avtomat Kir Yuvish Mashinasi — zamonaviy va tejamkor kir yuvish texnikasi. Kiyimlarni ehtiyotkorlik bilan toza yuvadi, suv va elektr energiyasini tejaydi.",
+    "description": "7kg Avtomat Kir Yuvish Mashinasi — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
+      {
+        "label": "Yo‘nalish",
+        "value": "Maishiy Texnika"
+      },
+      {
+        "label": "Toifa",
+        "value": "Kir Yuvish Mashinalari"
+      },
       {
         "label": "Brend",
         "value": "TEXNOLUX"
       },
       {
-        "label": "Yuklama hajmi",
-        "value": "7 kg"
+        "label": "Holati",
+        "value": "Yangi / Kafolatli"
       },
       {
-        "label": "Turi",
-        "value": "To‘liq avtomat"
-      },
-      {
-        "label": "Kafolat",
-        "value": "1 yil rasmiy kafolat"
+        "label": "Yetkazib berish",
+        "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:54.269Z"
+    "created_at": "2026-11-25T06:36:54.269Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-3466",
     "id": "prod_boshqa-texnika-3466",
-    "title": "Boshqa Texnika",
+    "title": "Beston Silent Air Changyutgich (5L, 2200W)",
     "slug": "boshqa-texnika-3466",
     "sku": "TXL-613466",
     "price": 1799000,
-    "oldPrice": 2068850,
-    "old_price": 2068850,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Beston",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1552,24 +1606,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611956_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Beston Silent Air Changyutgich (5L, 2200W) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Beston"
       },
       {
         "label": "Holati",
@@ -1580,26 +1634,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:53.466Z"
+    "created_at": "2026-11-25T06:36:53.466Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-3384",
     "id": "prod_boshqa-texnika-3384",
-    "title": "Boshqa Texnika",
+    "title": "Samsung 2000W Ko‘k-Qora Changyutgich",
     "slug": "boshqa-texnika-3384",
     "sku": "TXL-613384",
     "price": 1606250,
-    "oldPrice": 1847187,
-    "old_price": 1847187,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Samsung",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1608,24 +1663,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611948_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Samsung 2000W Ko‘k-Qora Changyutgich — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Samsung"
       },
       {
         "label": "Holati",
@@ -1636,26 +1691,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:53.384Z"
+    "created_at": "2026-11-25T06:36:53.384Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-3284",
     "id": "prod_boshqa-texnika-3284",
-    "title": "Boshqa Texnika",
+    "title": "Sonifer SF-9093 Qo‘l Bug‘li Dazmoli (1500W)",
     "slug": "boshqa-texnika-3284",
     "sku": "TXL-613284",
     "price": 321250,
-    "oldPrice": 369438,
-    "old_price": 369438,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Sonifer",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1664,24 +1720,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611930_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Sonifer SF-9093 Qo‘l Bug‘li Dazmoli (1500W) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Sonifer"
       },
       {
         "label": "Holati",
@@ -1692,26 +1748,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:53.284Z"
+    "created_at": "2026-11-25T06:36:53.284Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-3253",
     "id": "prod_boshqa-texnika-3253",
-    "title": "Boshqa Texnika",
+    "title": "Midea X6 Simsiz Yuvuvchi Changyutgich",
     "slug": "boshqa-texnika-3253",
     "sku": "TXL-613253",
     "price": 2120250,
-    "oldPrice": 2438288,
-    "old_price": 2438288,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 2409375,
+    "old_price": 2409375,
+    "discountPercent": 12,
+    "discount_percent": 12,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Midea",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1725,19 +1782,19 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Midea X6 Simsiz Yuvuvchi Changyutgich — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Midea"
       },
       {
         "label": "Holati",
@@ -1748,26 +1805,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:53.253Z"
+    "created_at": "2026-11-25T06:36:53.253Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_boshqa-texnika-3200",
     "id": "prod_boshqa-texnika-3200",
-    "title": "Boshqa Texnika",
+    "title": "Bosch AquaWash & Clean Serie 4 Komplekt (2100W)",
     "slug": "boshqa-texnika-3200",
     "sku": "TXL-613200",
     "price": 4497500,
-    "oldPrice": 5172125,
-    "old_price": 5172125,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Bosch",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1776,24 +1834,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611940_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Bosch AquaWash & Clean Serie 4 Komplekt (2100W) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Bosch"
       },
       {
         "label": "Holati",
@@ -1804,26 +1862,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:53.200Z"
+    "created_at": "2026-11-25T06:36:53.200Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-3178",
     "id": "prod_boshqa-texnika-3178",
-    "title": "Boshqa Texnika",
+    "title": "LG ThinQ 8 kg Avtomat Kir Yuvish Mashinasi",
     "slug": "boshqa-texnika-3178",
     "sku": "TXL-613178",
     "price": 5525500,
-    "oldPrice": 6354325,
-    "old_price": 6354325,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
+    "oldPrice": 6139444,
+    "old_price": 6139444,
+    "discountPercent": 10,
+    "discount_percent": 10,
+    "category": "Kir Yuvish Mashinalari",
+    "category_slug": "kir-yuvish-mashinalari",
+    "categorySlug": "kir-yuvish-mashinalari",
     "department": "maishiy-texnika",
     "departmentName": "Maishiy Texnika",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "LG",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1837,7 +1896,7 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "LG ThinQ 8 kg Avtomat Kir Yuvish Mashinasi — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
@@ -1845,11 +1904,11 @@ export const defaultProducts = [
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Kir Yuvish Mashinalari"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "LG"
       },
       {
         "label": "Holati",
@@ -1860,26 +1919,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:53.178Z"
+    "created_at": "2026-11-25T06:36:53.178Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_boshqa-texnika-2939",
     "id": "prod_boshqa-texnika-2939",
-    "title": "Boshqa Texnika",
+    "title": "Midea Ultratovushli Havo Namlagich",
     "slug": "boshqa-texnika-2939",
     "sku": "TXL-612939",
     "price": 449750,
-    "oldPrice": 517212,
-    "old_price": 517212,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Konditsionerlar & Iqlim",
+    "category_slug": "konditsionerlar",
+    "categorySlug": "konditsionerlar",
+    "department": "iqlim-texnikasi",
+    "departmentName": "Iqlim Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Midea",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1888,24 +1948,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611870_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Midea Ultratovushli Havo Namlagich — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Iqlim Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Konditsionerlar & Iqlim"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Midea"
       },
       {
         "label": "Holati",
@@ -1916,26 +1976,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:52.939Z"
+    "created_at": "2026-11-25T06:36:52.939Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-2855",
     "id": "prod_boshqa-texnika-2855",
-    "title": "Boshqa Texnika",
+    "title": "Tefal Puregliss Micro Calc Bug‘li Dazmol",
     "slug": "boshqa-texnika-2855",
     "sku": "TXL-612855",
     "price": 989450,
-    "oldPrice": 1137868,
-    "old_price": 1137868,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Tefal",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -1944,24 +2005,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-612075_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Tefal Puregliss Micro Calc Bug‘li Dazmol — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Tefal"
       },
       {
         "label": "Holati",
@@ -1972,26 +2033,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:52.855Z"
+    "created_at": "2026-11-25T06:36:52.855Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_12-tali-18-tali-450-2709",
     "id": "prod_12-tali-18-tali-450-2709",
-    "title": "12 tali 18 tali 450$",
+    "title": "AUX ASW-H12A4/QDR Split Konditsioner (12/18 BTU)",
     "slug": "12-tali-18-tali-450-2709",
     "sku": "TXL-612709",
     "price": 3790750,
-    "oldPrice": 4359363,
-    "old_price": 4359363,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 4307670,
+    "old_price": 4307670,
+    "discountPercent": 12,
+    "discount_percent": 12,
+    "category": "Konditsionerlar & Iqlim",
+    "category_slug": "konditsionerlar",
+    "categorySlug": "konditsionerlar",
+    "department": "iqlim-texnikasi",
+    "departmentName": "Iqlim Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Aux",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -2005,19 +2067,19 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "12 tali 18 tali 450$ — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "AUX ASW-H12A4/QDR Split Konditsioner (12/18 BTU) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Iqlim Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Konditsionerlar & Iqlim"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Aux"
       },
       {
         "label": "Holati",
@@ -2028,7 +2090,8 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:52.709Z"
+    "created_at": "2026-11-25T06:36:52.709Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_rulls-10-kg-avtomat-kir-yuvish-mashinasi-2662",
@@ -2037,10 +2100,10 @@ export const defaultProducts = [
     "slug": "rulls-10-kg-avtomat-kir-yuvish-mashinasi-2662",
     "sku": "TXL-612662",
     "price": 3533750,
-    "oldPrice": 4063812,
-    "old_price": 4063812,
-    "discountPercent": 13,
-    "discount_percent": 13,
+    "oldPrice": 3926389,
+    "old_price": 3926389,
+    "discountPercent": 10,
+    "discount_percent": 10,
     "category": "Kir Yuvish Mashinalari",
     "category_slug": "kir-yuvish-mashinalari",
     "categorySlug": "kir-yuvish-mashinalari",
@@ -2061,45 +2124,50 @@ export const defaultProducts = [
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Rulls 10 kg Avtomat Kir Yuvish Mashinasi — zamonaviy va tejamkor kir yuvish texnikasi. Kiyimlarni ehtiyotkorlik bilan toza yuvadi, suv va elektr energiyasini tejaydi.",
+    "description": "Rulls 10 kg Avtomat Kir Yuvish Mashinasi — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
+      {
+        "label": "Yo‘nalish",
+        "value": "Maishiy Texnika"
+      },
+      {
+        "label": "Toifa",
+        "value": "Kir Yuvish Mashinalari"
+      },
       {
         "label": "Brend",
         "value": "Rulls"
       },
       {
-        "label": "Yuklama hajmi",
-        "value": "10 kg"
+        "label": "Holati",
+        "value": "Yangi / Kafolatli"
       },
       {
-        "label": "Turi",
-        "value": "To‘liq avtomat"
-      },
-      {
-        "label": "Kafolat",
-        "value": "1 yil rasmiy kafolat"
+        "label": "Yetkazib berish",
+        "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:52.662Z"
+    "created_at": "2026-11-25T06:36:52.662Z",
+    "isBestseller": true
   },
   {
     "_id": "prod_boshqa-texnika-2562",
     "id": "prod_boshqa-texnika-2562",
-    "title": "Boshqa Texnika",
+    "title": "Snappro V18 Simsiz Changyutgich (To‘liq To‘plam)",
     "slug": "boshqa-texnika-2562",
     "sku": "TXL-612562",
     "price": 1413500,
-    "oldPrice": 1625525,
-    "old_price": 1625525,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Snappro",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -2108,24 +2176,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611792_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Snappro V18 Simsiz Changyutgich (To‘liq To‘plam) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Snappro"
       },
       {
         "label": "Holati",
@@ -2136,26 +2204,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:52.562Z"
+    "created_at": "2026-11-25T06:36:52.562Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-2507",
     "id": "prod_boshqa-texnika-2507",
-    "title": "Boshqa Texnika",
+    "title": "Philips Azur 7000 Series Bug‘li Dazmol (Yashil)",
     "slug": "boshqa-texnika-2507",
     "sku": "TXL-612507",
     "price": 771000,
-    "oldPrice": 886650,
-    "old_price": 886650,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Philips",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -2164,24 +2233,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611847_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Philips Azur 7000 Series Bug‘li Dazmol (Yashil) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Philips"
       },
       {
         "label": "Holati",
@@ -2192,26 +2261,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:52.507Z"
+    "created_at": "2026-11-25T06:36:52.507Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-2481",
     "id": "prod_boshqa-texnika-2481",
-    "title": "Boshqa Texnika",
+    "title": "Philips Azur 7000 Series Bug‘li Dazmol (Ko‘k)",
     "slug": "boshqa-texnika-2481",
     "sku": "TXL-612481",
     "price": 771000,
-    "oldPrice": 886650,
-    "old_price": 886650,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Philips",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -2220,24 +2290,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-612077_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Philips Azur 7000 Series Bug‘li Dazmol (Ko‘k) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Philips"
       },
       {
         "label": "Holati",
@@ -2248,26 +2318,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:52.481Z"
+    "created_at": "2026-11-25T06:36:52.481Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-2453",
     "id": "prod_boshqa-texnika-2453",
-    "title": "Boshqa Texnika",
+    "title": "Samsung 2000W Ko‘k Changyutgich",
     "slug": "boshqa-texnika-2453",
     "sku": "TXL-612453",
     "price": 1542000,
-    "oldPrice": 1773300,
-    "old_price": 1773300,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Samsung",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -2276,24 +2347,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611854_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Samsung 2000W Ko‘k Changyutgich — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Samsung"
       },
       {
         "label": "Holati",
@@ -2304,26 +2375,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:52.453Z"
+    "created_at": "2026-11-25T06:36:52.453Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_boshqa-texnika-2405",
     "id": "prod_boshqa-texnika-2405",
-    "title": "Boshqa Texnika",
+    "title": "Samsung Twin Chamber Qora Changyutgich",
     "slug": "boshqa-texnika-2405",
     "sku": "TXL-612405",
     "price": 2120250,
-    "oldPrice": 2438288,
-    "old_price": 2438288,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
-    "department": "maishiy-texnika",
-    "departmentName": "Maishiy Texnika",
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
+    "category": "Changyutgich & Dazmollar",
+    "category_slug": "uy-tozalash",
+    "categorySlug": "uy-tozalash",
+    "department": "uy-texnikasi",
+    "departmentName": "Uy Texnikasi",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Samsung",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -2332,24 +2404,24 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-611830_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "Boshqa Texnika — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Samsung Twin Chamber Qora Changyutgich — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
-        "value": "Maishiy Texnika"
+        "value": "Uy Texnikasi"
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Changyutgich & Dazmollar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Samsung"
       },
       {
         "label": "Holati",
@@ -2360,26 +2432,27 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:52.405Z"
+    "created_at": "2026-11-25T06:36:52.405Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_200-litir-2297",
     "id": "prod_200-litir-2297",
-    "title": "200 litir",
+    "title": "Avangard Morozilnik (200 litr)",
     "slug": "200-litir-2297",
     "sku": "TXL-612297",
     "price": 3276750,
-    "oldPrice": 3768262,
-    "old_price": 3768262,
-    "discountPercent": 13,
-    "discount_percent": 13,
-    "category": "Boshqa Texnika",
-    "category_slug": "boshqa-texnika",
-    "categorySlug": "boshqa-texnika",
+    "oldPrice": 3640833,
+    "old_price": 3640833,
+    "discountPercent": 10,
+    "discount_percent": 10,
+    "category": "Muzlatgichlar & Morozilniklar",
+    "category_slug": "muzlatgichlar",
+    "categorySlug": "muzlatgichlar",
     "department": "maishiy-texnika",
     "departmentName": "Maishiy Texnika",
     "subcategory": "",
-    "brand": "TEXNOLUX",
+    "brand": "Avangard",
     "stock": 25,
     "inStock": true,
     "in_stock": true,
@@ -2388,12 +2461,12 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-610683_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "200 litir — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
+    "description": "Avangard Morozilnik (200 litr) — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
       {
         "label": "Yo‘nalish",
@@ -2401,11 +2474,11 @@ export const defaultProducts = [
       },
       {
         "label": "Toifa",
-        "value": "Boshqa Texnika"
+        "value": "Muzlatgichlar & Morozilniklar"
       },
       {
         "label": "Brend",
-        "value": "TEXNOLUX"
+        "value": "Avangard"
       },
       {
         "label": "Holati",
@@ -2416,7 +2489,8 @@ export const defaultProducts = [
         "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:52.297Z"
+    "created_at": "2026-11-25T06:36:52.297Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_8-5-kg-avtomat-kir-yuvish-mashinasi-2130",
@@ -2425,10 +2499,10 @@ export const defaultProducts = [
     "slug": "8-5-kg-avtomat-kir-yuvish-mashinasi-2130",
     "sku": "TXL-612130",
     "price": 5127150,
-    "oldPrice": 5896223,
-    "old_price": 5896223,
-    "discountPercent": 13,
-    "discount_percent": 13,
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
     "category": "Kir Yuvish Mashinalari",
     "category_slug": "kir-yuvish-mashinalari",
     "categorySlug": "kir-yuvish-mashinalari",
@@ -2444,31 +2518,36 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-610779_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "8.5 kg Avtomat Kir Yuvish Mashinasi — zamonaviy va tejamkor kir yuvish texnikasi. Kiyimlarni ehtiyotkorlik bilan toza yuvadi, suv va elektr energiyasini tejaydi.",
+    "description": "8.5 kg Avtomat Kir Yuvish Mashinasi — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
+      {
+        "label": "Yo‘nalish",
+        "value": "Maishiy Texnika"
+      },
+      {
+        "label": "Toifa",
+        "value": "Kir Yuvish Mashinalari"
+      },
       {
         "label": "Brend",
         "value": "TEXNOLUX"
       },
       {
-        "label": "Yuklama hajmi",
-        "value": "8.5 kg"
+        "label": "Holati",
+        "value": "Yangi / Kafolatli"
       },
       {
-        "label": "Turi",
-        "value": "To‘liq avtomat"
-      },
-      {
-        "label": "Kafolat",
-        "value": "1 yil rasmiy kafolat"
+        "label": "Yetkazib berish",
+        "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:52.130Z"
+    "created_at": "2026-11-25T06:36:52.130Z",
+    "isBestseller": false
   },
   {
     "_id": "prod_10-5-kg-avtomat-kir-yuvish-mashinasi-1059",
@@ -2477,10 +2556,10 @@ export const defaultProducts = [
     "slug": "10-5-kg-avtomat-kir-yuvish-mashinasi-1059",
     "sku": "TXL-611059",
     "price": 4497500,
-    "oldPrice": 5172125,
-    "old_price": 5172125,
-    "discountPercent": 13,
-    "discount_percent": 13,
+    "oldPrice": 0,
+    "old_price": 0,
+    "discountPercent": 0,
+    "discount_percent": 0,
     "category": "Kir Yuvish Mashinalari",
     "category_slug": "kir-yuvish-mashinalari",
     "categorySlug": "kir-yuvish-mashinalari",
@@ -2496,31 +2575,36 @@ export const defaultProducts = [
     "images": [
       "/uploads/prod-610480_1.jpg"
     ],
-    "is_bestseller": true,
+    "is_bestseller": false,
     "is_new_arrival": true,
     "is_weekly_deal": false,
     "variantLabel": "",
     "variants": [],
-    "description": "10.5 kg Avtomat Kir Yuvish Mashinasi — zamonaviy va tejamkor kir yuvish texnikasi. Kiyimlarni ehtiyotkorlik bilan toza yuvadi, suv va elektr energiyasini tejaydi.",
+    "description": "10.5 kg Avtomat Kir Yuvish Mashinasi — TEXNOLUX do‘konidan sifatli va rasmiy kafolatli maishiy texnika. O‘zbekiston bo‘ylab tezkor yetkazib berish xizmati mavjud.",
     "specifications": [
+      {
+        "label": "Yo‘nalish",
+        "value": "Maishiy Texnika"
+      },
+      {
+        "label": "Toifa",
+        "value": "Kir Yuvish Mashinalari"
+      },
       {
         "label": "Brend",
         "value": "TEXNOLUX"
       },
       {
-        "label": "Yuklama hajmi",
-        "value": "10.5 kg"
+        "label": "Holati",
+        "value": "Yangi / Kafolatli"
       },
       {
-        "label": "Turi",
-        "value": "To‘liq avtomat"
-      },
-      {
-        "label": "Kafolat",
-        "value": "1 yil rasmiy kafolat"
+        "label": "Yetkazib berish",
+        "value": "O‘zbekiston bo‘ylab tezkor"
       }
     ],
-    "created_at": "2026-11-25T06:36:51.059Z"
+    "created_at": "2026-11-25T06:36:51.059Z",
+    "isBestseller": false
   }
 ];
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useSearchParams, Link } from 'react-router-dom';
+import { useParams, useSearchParams, useNavigate, Link } from 'react-router-dom';
 import { Filter, SlidersHorizontal, ChevronRight, Check, X, RotateCcw } from 'lucide-react';
 import ProductCard from '../../components/storefront/ProductCard';
 import { useLanguage } from '../../context/LanguageContext';
@@ -8,6 +8,7 @@ import api from '../../services/api';
 export default function CatalogPage() {
   const { categorySlug } = useParams();
   const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
   const { t, lang } = useLanguage();
 
   const searchQuery = searchParams.get('search') || '';
@@ -47,7 +48,8 @@ export default function CatalogPage() {
     } else {
       newParams.delete('category');
     }
-    setSearchParams(newParams);
+    const qs = newParams.toString();
+    navigate(qs ? `/shop?${qs}` : '/shop');
   };
 
   useEffect(() => {
@@ -84,10 +86,10 @@ export default function CatalogPage() {
     setMaxPrice('');
     setInStockOnly(false);
     setSortBy('newest');
-    setSearchParams({});
+    navigate('/shop');
   };
 
-  const brands = ['Rulls', 'Artel', 'Shivaki', 'LG', 'Samsung', 'Beko', 'Premier', 'Avalon', 'Midea', 'TCL', 'Gree', 'Hoffmann', 'Immer', 'Bosch', 'Hisense'];
+  const brands = ['LG', 'Samsung', 'Bosch', 'Immer', 'Rulls', 'Artel', 'Hisense', 'Ziffler', 'Midea', 'Philips', 'Tefal', 'Dyson', 'Aux', 'Avalon', 'Beston', 'Hitachi', 'Bohn', 'Snappro', 'Duvel', 'Sonifer', 'Goodwell', 'Avangard', '7TECH'];
 
   return (
     <div className="max-w-[1820px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 py-6">

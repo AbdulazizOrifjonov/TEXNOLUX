@@ -628,8 +628,8 @@ const CATEGORIES = [
     departmentName: 'Maishiy Texnika',
     icon: 'Snowflake',
     keywords: [
-      'muzlat', 'xolodil', 'holodil', 'холодил', 'morozil', 'морозил',
-      'no frost', 'nofrost', 'defrost', 'vitrina', 'kuler', 'cooler', 'fridge', 'freezer'
+      'muzlat', 'xolodil', 'holodil', 'холодил', 'morozil', 'marazil', 'морозил',
+      'no frost', 'nofrost', 'defrost', 'vitrina', 'fridge', 'freezer', 'litr', 'litir', 'avangard', '7tech'
     ]
   },
   {
@@ -650,8 +650,9 @@ const CATEGORIES = [
     departmentName: 'Iqlim Texnikasi',
     icon: 'Wind',
     keywords: [
-      'konditsioner', 'кондиционер', 'split', 'сплит', 'btu', 'qish-yoz', 'зима-лето',
-      'isitgich', 'obogrevatel', 'обогреватель', 'ventilyator', 'вентилятор', 'boyler', 'бойлер', 'ariston'
+      'konditsioner', 'кондиционер', 'split', 'сплит', 'btu', '12 tali', '18 tali', '24 tali', 'qish-yoz', 'зима-лето',
+      'isitgich', 'obogrevatel', 'обогреватель', 'ventilyator', 'вентилятор', 'boyler', 'бойлер', 'ariston',
+      'namlagich', 'увлажнитель', 'dyson', 'aux'
     ]
   },
   {
@@ -661,10 +662,10 @@ const CATEGORIES = [
     departmentName: 'Oshxona Texnikasi',
     icon: 'Flame',
     keywords: [
-      'gaz plita', 'plita', 'плита', 'duxovka', 'духовка', 'pech', 'печь', 'mikro', 'svch', 'свч',
-      'vityajka', 'вытяжка', 'posudomoy', 'idish yuv', 'посудомоеч', 'blender', 'блендер',
-      'mikser', 'миксер', 'choynak', 'чайник', 'termopot', 'термопот', 'myasorubka', 'мясорубка',
-      'qiymalagich', 'kofe', 'кофе', 'multivarka', 'toster', 'sokovijimalka', 'gril', 'aerogril'
+      'gaz plita', 'tali gaz', 'plita', 'плита', 'duxovka', 'духовка', 'pech', 'печь', 'mikro', 'svch', 'свч',
+      'vityajka', 'вытяжка', 'posudomoy', 'pasuda', 'idish yuv', 'посудомоеч', 'blender', 'блендер',
+      'mikser', 'миксер', 'choynak', 'чайник', 'kuler', 'cooler', 'termopot', 'термопот', 'myasorubka', 'мясорубка',
+      'qiymalagich', 'kofe', 'кофе', 'multivarka', 'toster', 'sokovijimalka', 'gril', 'aerogril', 'goodwell'
     ]
   },
   {
@@ -674,8 +675,8 @@ const CATEGORIES = [
     departmentName: 'Uy Texnikasi',
     icon: 'Zap',
     keywords: [
-      'changyutgich', 'pilesos', 'pylesos', 'пылесос', 'robot', 'dazmol', 'utyug', 'утюг',
-      'parogenerator', 'парогенератор', 'otparivatel', 'tikuv', 'швейн'
+      'changyutgich', 'pilesos', 'pylesos', 'пылесос', 'robot', 'dazmol', 'utyug', 'утюг', 'steam',
+      'parogenerator', 'парогенератор', 'otparivatel', 'tikuv', 'швейн', 'tefal', 'sonifer', 'duvel', 'bohn', 'snappro'
     ]
   },
   {
