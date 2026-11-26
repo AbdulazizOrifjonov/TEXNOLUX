@@ -1,14 +1,14 @@
 {
-  "name": "project-sport",
+  "name": "texnolux",
   "version": "1.0.0",
-  "description": "SPORT OUTLET (Sport & Fitness Store Platform)",
+  "description": "TEXNOLUX — Online Do‘kon & Telegram Mini App Bot",
   "main": "tools/telegram_product_bot.js",
   "scripts": {
     "start": "node tools/telegram_product_bot.js",
     "bot": "node tools/telegram_product_bot.js",
     "build": "cd frontend && npm install && npm run build"
   },
-  "keywords": ["sport", "fitness", "store", "ecommerce"],
-  "author": "Abdulazizbek",
+  "keywords": ["texnolux", "ecommerce", "telegram-mini-app"],
+  "author": "AbdulazizOrifjonov",
   "license": "ISC"
 }

@@ -503,6 +503,77 @@ const healthServer = http.createServer(async (req, res) => {
     return sendJson(res, 500, { success: false, message: err.message });
   }
 
+  // Serve built frontend static assets (frontend/dist) + SPA React Router fallback
+  try {
+    const MIME_TYPES = {
+      '.html': 'text/html; charset=utf-8',
+      '.js': 'application/javascript; charset=utf-8',
+      '.mjs': 'application/javascript; charset=utf-8',
+      '.css': 'text/css; charset=utf-8',
+      '.json': 'application/json; charset=utf-8',
+      '.png': 'image/png',
+      '.jpg': 'image/jpeg',
+      '.jpeg': 'image/jpeg',
+      '.webp': 'image/webp',
+      '.gif': 'image/gif',
+      '.svg': 'image/svg+xml',
+      '.ico': 'image/x-icon',
+      '.woff': 'font/woff',
+      '.woff2': 'font/woff2',
+      '.txt': 'text/plain; charset=utf-8'
+    };
+
+    let safeRel = '';
+    try {
+      safeRel = path.posix
+        .normalize(decodeURIComponent(urlPath))
+        .replace(/^(\.\.(\/|\\|$))+/, '')
+        .replace(/^\/+/, '');
+    } catch (_) {
+      safeRel = '';
+    }
+
+    const candidates = [];
+    if (!safeRel) {
+      candidates.push(path.join(DIST_DIR, 'index.html'));
+    } else {
+      candidates.push(path.join(DIST_DIR, safeRel));
+      candidates.push(path.join(FRONTEND_DIR, 'public', safeRel));
+      if (!path.extname(safeRel)) {
+        candidates.push(path.join(DIST_DIR, 'index.html'));
+      }
+    }
+
+    let servedFile = null;
+    for (const candidate of candidates) {
+      if (fs.existsSync(candidate) && fs.statSync(candidate).isFile()) {
+        servedFile = candidate;
+        break;
+      }
+    }
+
+    if (!servedFile && fs.existsSync(path.join(DIST_DIR, 'index.html')) && !path.extname(safeRel)) {
+      servedFile = path.join(DIST_DIR, 'index.html');
+    }
+
+    if (servedFile) {
+      const ext = path.extname(servedFile).toLowerCase();
+      const mime = MIME_TYPES[ext] || 'application/octet-stream';
+      const cacheControl = urlPath.startsWith('/data/')
+        ? 'no-store'
+        : urlPath.startsWith('/assets/')
+        ? 'public, max-age=31536000, immutable'
+        : 'public, max-age=300';
+      res.writeHead(200, {
+        'Content-Type': mime,
+        'Cache-Control': cacheControl
+      });
+      return res.end(fs.readFileSync(servedFile));
+    }
+  } catch (staticErr) {
+    console.warn('Static serve warning:', staticErr.message);
+  }
+
   res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
   res.end('TEXNOLUX Telegram Bot is running!\n');
 });
@@ -514,14 +585,13 @@ healthServer.on('error', (err) => {
   }
 });
 
-const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || process.env.BOT_TOKEN || '';
-const MINI_APP_URL = (process.env.MINI_APP_URL || '').trim();
+const BOT_TOKEN = (process.env.TELEGRAM_BOT_TOKEN || process.env.BOT_TOKEN || '').trim();
+const MINI_APP_URL = (process.env.MINI_APP_URL || process.env.RENDER_EXTERNAL_URL || '').trim();
 if (!BOT_TOKEN) {
-  console.error('❌ TELEGRAM_BOT_TOKEN is not set. Please set TELEGRAM_BOT_TOKEN in .env');
-  process.exit(1);
+  console.warn('⚠️ TELEGRAM_BOT_TOKEN is not set. Serving web storefront only until TELEGRAM_BOT_TOKEN is configured.');
 }
-const TELEGRAM_API = `https://api.telegram.org/bot${BOT_TOKEN}`;
-const TELEGRAM_FILE_API = `https://api.telegram.org/file/bot${BOT_TOKEN}`;
+const TELEGRAM_API = BOT_TOKEN ? `https://api.telegram.org/bot${BOT_TOKEN}` : '';
+const TELEGRAM_FILE_API = BOT_TOKEN ? `https://api.telegram.org/file/bot${BOT_TOKEN}` : '';
 
 const USD_RATE = Number(process.env.USD_RATE || 12850);
 
@@ -1014,6 +1084,7 @@ function parseProductInfo(text = '') {
 }
 
 async function sendTelegram(method, data) {
+  if (!BOT_TOKEN) return null;
   try {
     const res = await fetch(`${TELEGRAM_API}/${method}`, {
       method: 'POST',
@@ -1346,6 +1417,7 @@ async function processMediaGroup(key, groupData) {
 let lastUpdateId = 0;
 
 async function pollUpdates() {
+  if (!BOT_TOKEN) return;
   try {
     const res = await fetch(`${TELEGRAM_API}/getUpdates?offset=${lastUpdateId + 1}&timeout=25`, {
       signal: AbortSignal.timeout(35000)
@@ -1357,6 +1429,9 @@ async function pollUpdates() {
         lastUpdateId = Math.max(lastUpdateId, update.update_id);
         await handleUpdate(update);
       }
+    } else if (data.error_code === 409) {
+      console.warn('⚠️ Telegram polling conflict (409): boshqa nusxa ham shu token bilan ishlamoqda.');
+      await new Promise(r => setTimeout(r, 5000));
     }
   } catch (err) {
     console.error('Polling error:', err.message);
@@ -1685,39 +1760,43 @@ if (require.main === module) {
   console.log('Smart Auto-Enricher: Home Appliances & Electronics');
   console.log('====================================================');
 
-  healthServer.listen(PORT, () => {
-    console.log(`Telegram Bot health-check server listening on port ${PORT}`);
+  healthServer.listen(PORT, '0.0.0.0', () => {
+    console.log(`TEXNOLUX Web & Bot server listening on port ${PORT}`);
   });
-
-  // Keep global menu button as commands until user completes /start onboarding + channel join
-  sendTelegram('setChatMenuButton', {
-    menu_button: { type: 'commands' }
-  }).then((r) => console.log('Global Menu Button reset for onboarding:', r?.ok ? 'OK' : JSON.stringify(r)));
 
   const existingOrders = readJsonArray(BOT_ORDERS_PATH);
   writeDualDataJson(BOT_ORDERS_PATH, PUBLIC_ORDERS_PATH, DIST_ORDERS_PATH, existingOrders);
   const existingNotifs = readJsonArray(BOT_NOTIFICATIONS_PATH);
   writeDualDataJson(BOT_NOTIFICATIONS_PATH, PUBLIC_NOTIFICATIONS_PATH, DIST_NOTIFICATIONS_PATH, existingNotifs);
 
-  if (MINI_APP_URL.startsWith('https://')) {
-    console.log(`Mini App URL: ${MINI_APP_URL}`);
-    const cfg = loadBotConfig();
-    syncCustomersToJson(cfg);
-    for (const [cid, u] of Object.entries(cfg.users || {})) {
-      if (u && u.step === 'completed') {
-        const userUrl = getMiniAppUrlForUser(cid);
-        sendTelegram('setChatMenuButton', {
-          chat_id: Number(cid) || cid,
-          menu_button: { type: 'web_app', text: '🛍 Do‘konni ochish', web_app: { url: userUrl } }
-        }).catch(() => {});
-        fetchTelegramAvatarIfMissing(Number(cid) || cid, cid).catch(() => {});
-      }
-    }
-  } else {
+  if (!BOT_TOKEN) {
     syncCustomersToJson(loadBotConfig());
-  }
+  } else {
+    // Keep global menu button as commands until user completes /start onboarding
+    sendTelegram('setChatMenuButton', {
+      menu_button: { type: 'commands' }
+    }).then((r) => console.log('Global Menu Button reset for onboarding:', r?.ok ? 'OK' : JSON.stringify(r)));
 
-  pollUpdates();
+    if (MINI_APP_URL.startsWith('https://')) {
+      console.log(`Mini App URL: ${MINI_APP_URL}`);
+      const cfg = loadBotConfig();
+      syncCustomersToJson(cfg);
+      for (const [cid, u] of Object.entries(cfg.users || {})) {
+        if (u && u.step === 'completed') {
+          const userUrl = getMiniAppUrlForUser(cid);
+          sendTelegram('setChatMenuButton', {
+            chat_id: Number(cid) || cid,
+            menu_button: { type: 'web_app', text: '🛍 Do‘konni ochish', web_app: { url: userUrl } }
+          }).catch(() => {});
+          fetchTelegramAvatarIfMissing(Number(cid) || cid, cid).catch(() => {});
+        }
+      }
+    } else {
+      syncCustomersToJson(loadBotConfig());
+    }
+
+    pollUpdates();
+  }
 }
 
 module.exports = { parseProductInfo, extractPriceAndTitle, detectCategory, detectBrand };

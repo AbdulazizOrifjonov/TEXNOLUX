@@ -1,10 +1,15 @@
 services:
   - type: web
-    name: Project_sport
-    env: static
+    name: texnolux
+    env: node
+    plan: free
     buildCommand: cd frontend && npm install && npm run build
-    staticPublishPath: frontend/dist
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
+    startCommand: node tools/telegram_product_bot.js
+    healthCheckPath: /bot-api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: BOT_USERNAME
+        value: "@ReferalPeople_bot"
